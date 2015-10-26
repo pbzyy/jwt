@@ -1,0 +1,17 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "Json.NET Serializer for JWT.DNX",
+	"authors": [ "John Sheehan", "Michael Lehenbauer", "Vinicius Melquiades" ],
+	"tags": [ "jwt json" ],
+	"projectUrl": "https://github.com/viniciusmelquiades/jwt/tree/dnx",
+
+	"dependencies": {
+		"JWT.DNX": { "target": "project" },
+		"Microsoft.CSharp": "4.0.1-beta-23409",
+		"Newtonsoft.Json": "7.0.1"
+	},
+
+	"frameworks": {
+		"dotnet": { }
+	}
+}

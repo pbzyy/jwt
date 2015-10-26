@@ -1,0 +1,17 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "JWT (JSON Web Token) Implementation for .NET (Public Domain). Compatible with the .NET Execution Environment (DNX). Based on version 1.3.4 of JWT",
+	"authors": [ "John Sheehan", "Michael Lehenbauer", "Vinicius Melquiades" ],
+	"tags": [ "jwt json" ],
+	"projectUrl": "https://github.com/viniciusmelquiades/jwt/tree/dnx",
+	"licenseUrl": "",
+
+	"dependencies": {
+		"Microsoft.CSharp": "4.0.1-beta-23409",
+		"System.Security.Cryptography.Algorithms": "4.0.0-beta-23225"
+	},
+
+	"frameworks": {
+		"dotnet": { }
+	}
+}
