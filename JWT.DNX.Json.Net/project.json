@@ -1,4 +1,5 @@
 ﻿{
+	"title": "JWT.DNX.Json.Net",
 	"version": "1.0.0-*",
 	"description": "Json.NET Serializer for JWT.DNX",
 	"authors": [ "John Sheehan", "Michael Lehenbauer", "Vinicius Melquiades" ],
