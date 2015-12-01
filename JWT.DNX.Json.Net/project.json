@@ -1,6 +1,7 @@
 ﻿{
 	"title": "JWT.DNX.Json.Net",
-	"version": "1.0.0-*",
+	"version": "1.0.0.1",
+	"releaseNotes": "Updated for compatibility with RC1",
 	"description": "Json.NET Serializer for JWT.DNX",
 	"authors": [ "John Sheehan", "Michael Lehenbauer", "Vinicius Melquiades" ],
 	"tags": [ "jwt json" ],
@@ -8,11 +9,11 @@
 
 	"dependencies": {
 		"JWT.DNX": { "target": "project" },
-		"Microsoft.CSharp": "4.0.1-beta-23409",
 		"Newtonsoft.Json": "7.0.1"
 	},
 
 	"frameworks": {
-		"dotnet": { }
+		"net451": { },
+		"dotnet5.4": { }
 	}
 }
