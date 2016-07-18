@@ -1,0 +1,41 @@
+﻿{
+	"title": "JWT for .NET Standard",
+	"version": "0.0.1",
+	"description": "Json.NET Serializer for jwt.dotnetstandard",
+	"authors": [
+		"John Sheehan",
+		"Michael Lehenbauer",
+		"Vinicius Melquiades"
+	],
+	"buildOptions": {
+		"xmlDoc": true
+	},
+	"packOptions": {
+		"repository": {
+			"type": "git",
+			"url": "https://github.com/viniciusmelquiades/jwt/tree/dotnet"
+		},
+		"projectUrl": "https://github.com/viniciusmelquiades/jwt/tree/dotnet",
+		"licenseUrl": "https://github.com/jwt-dotnet/jwt/blob/master/LICENSE.txt",
+		"tags": [
+			"jwt"
+		],
+		"releaseNotes": "Updated to .NET Standard"
+	},
+	"dependencies": {
+		"jwt.dotnetstandard": {
+			"target": "project"
+		},
+		"Newtonsoft.Json": "9.0.1"
+	},
+	"frameworks": {
+		"netstandard1.3": {
+			"dependencies": {
+				"NETStandard.Library": {
+					"version": "1.6.0",
+					"type": "platform"
+				}
+			}
+		}
+	}
+}
